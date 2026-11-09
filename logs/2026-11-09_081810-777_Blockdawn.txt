@@ -1,0 +1,1475 @@
+===== HEADER =====
+RustEx report 2026-11-09 08:18:10
+nick: Blockdawn
+launcher: 1.1.0
+os: Windows-11-10.0.26340-SP0
+python: 3.15.1
+ram_mb: 7886
+mc: 1.20.1 fabric-loader: 0.15.11 fabric-api: 0.92.2+1.20.1
+backend: http://127.0.0.1:8080
+server: 
+data_dir: C:\Users\<user>\AppData\Roaming\RustExLauncher
+
+===== MODS =====
+fabric-api-0.92.2+1.20.1.jar  4500f844c455  2107289
+rustex-autoloader-1.0.0.jar  478a0a1a137c  33856
+rustex-building-1.1.0.jar  29ed7b83f3bd  41957
+rustex-crafting-1.0.0.jar  0e7da950d835  77956
+rustex-loot-1.0.0.jar  98f760c99b85  43485
+rustex-mobs-1.1.0.jar  93f346155799  28779
+rustex-raids-1.0.0.jar  30939ef04103  34169
+rustex-survival-1.1.0.jar  9b2fd0bd979e  48466
+rustex-transport-1.0.0.jar  7771ecc70211  23447
+rustex-world-1.0.0.jar  fb33f484581a  56182
+
+===== launcher.log =====
+(файла нет)
+
+===== game stdout (game.log) =====
+[08:13:52] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.11
+[08:13:52] [main/INFO]: Loading 66 mods:
+	- fabric-api 0.92.2+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.64+df3654b377
+	   |-- fabric-content-registries-v0 4.0.11+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.4+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.2+1802ada577
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.12+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.1+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.45+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.50+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.11+1802ada577
+	   |-- fabric-networking-v0 0.3.51+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.3+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.21+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.3+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.2+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.10+1802ada577
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabricloader 0.15.11
+	   \-- mixinextras 0.3.5
+	- java 17
+	- minecraft 1.20.1
+	- rustex_autoloader 1.0.0
+	- rustex_building 1.1.0
+	- rustex_crafting 1.0.0
+	- rustex_loot 1.0.0
+	- rustex_mobs 1.1.0
+	- rustex_raids 1.0.0
+	- rustex_survival 1.1.0
+	- rustex_transport 1.0.0
+	- rustex_world 1.0.0
+[08:13:52] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/<user>/AppData/Roaming/RustExLauncher/game/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[08:13:53] [main/INFO]: Compatibility level set to JAVA_16
+[08:13:53] [main/INFO]: Compatibility level set to JAVA_17
+[08:13:55] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[08:14:04] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 399 milliseconds
+[08:14:08] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08:14:09] [Render thread/ERROR]: Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:124) ~[authlib-4.0.43.jar:?]
+	at net.minecraft.class_310.method_31382(class_310.java:733) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:442) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:211) ~[fabric-loader-0.15.11-1.20.1.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.11.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:85) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
+	... 8 more
+[08:14:10] [Render thread/INFO]: Setting user: Blockdawn
+[08:14:10] [Render thread/INFO]: [RustEx AutoLoader] ������������� v1.0.0...
+[08:14:10] [Render thread/INFO]: [RustEx AutoLoader] ? ��������� ��������� �������
+[08:14:10] [Render thread/INFO]: [RustEx AutoLoader] ? ���������� �����: HMAC-SHA256
+[08:14:10] [Render thread/INFO]: [RustEx AutoLoader] ? ���������� �����: AES-256-GCM
+[08:14:10] [Render thread/INFO]: [RustEx AutoLoader] ���������!
+[08:14:10] [Render thread/INFO]: [RustEx Building] �������������...
+[08:14:10] [Render thread/INFO]: [RustEx Building] ? �����: 4 ������
+[08:14:10] [Render thread/INFO]: [RustEx Building] ? ���� �����������
+[08:14:10] [Render thread/INFO]: [RustEx Building] ? �������� �����
+[08:14:10] [Render thread/INFO]: [RustEx Building] ? ������� ����� (/lock)
+[08:14:10] [Render thread/INFO]: [RustEx Building] ���������!
+[08:14:10] [Render thread/INFO]: [RustEx Crafting] �������������...
+[08:14:10] [Render thread/INFO]: [RustEx Crafting] ? ������ ����������: 61 �����
+[08:14:10] [Render thread/INFO]: [RustEx Crafting] ? T1=26 | T2=21 | T3=14
+[08:14:10] [Render thread/INFO]: [RustEx Crafting] ���������!
+[08:14:10] [Render thread/INFO]: [RustEx Loot] ���������: 7 �����������, 4 ��������, 5 ���, ����-�����, ����� ����������
+[08:14:10] [Render thread/INFO]: [RustEx Mobs] ���������: �����/�����/�������/���� + ������ 6 ����� (GenericScientistEntity)
+[08:14:10] [Render thread/INFO]: [RustEx Raids] Building ��� ������
+[08:14:10] [Render thread/INFO]: [RustEx Raids] ���������: �������, C4/������, ���������+3 ������. Building ���: ������
+[08:14:10] [Render thread/INFO]: [RustEx Survival] ���������: �������/����/�����������/��������(4 ������), ������, ����-�����
+[08:14:10] [Render thread/INFO]: [RustEx Transport] ���������: ���������� (2 ���������, HP 1000, ��� 500)
+[08:14:10] [Render thread/INFO]: RustEx World ��������: 9 ����������, ��������� �� ����� (gamerule rustexMonuments)
+[08:14:10] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[08:14:11] [Render thread/INFO]: [AutoLoader] ������ ���������������.
+[08:14:11] [Render thread/INFO]: [RustEx Building] ������ ���������������
+[08:14:11] [Render thread/INFO]: [RustEx Crafting] ������ � GUI ������ ���������� ��������
+[08:14:11] [Render thread/INFO]: RustEx World (������) ��������
+[08:14:11] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[08:14:13] [Worker-Main-1/ERROR]: Failed to retrieve profile key pair
+java.io.IOException: Could not retrieve profile key pair
+	at net.minecraft.class_7434.method_43605(class_7434.java:139) ~[client-intermediary.jar:?]
+	at net.minecraft.class_7434.method_44291(class_7434.java:79) ~[client-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[08:14:13] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, rustex_autoloader, rustex_building, rustex_crafting, rustex_loot, rustex_mobs, rustex_raids, rustex_survival, rustex_transport, rustex_world)
+[08:14:13] [Worker-Main-2/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[08:14:14] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/barrel.json' missing model for variant: 'rustex_loot:barrel#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/oil_barrel.json' missing model for variant: 'rustex_loot:oil_barrel#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/wooden_crate.json' missing model for variant: 'rustex_loot:wooden_crate#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/military_crate.json' missing model for variant: 'rustex_loot:military_crate#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/elite_crate.json' missing model for variant: 'rustex_loot:elite_crate#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/food_crate.json' missing model for variant: 'rustex_loot:food_crate#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/medical_crate.json' missing model for variant: 'rustex_loot:medical_crate#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/hemp_plant.json' missing model for variant: 'rustex_loot:hemp_plant#age=0'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/hemp_plant.json' missing model for variant: 'rustex_loot:hemp_plant#age=1'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/hemp_plant.json' missing model for variant: 'rustex_loot:hemp_plant#age=2'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/hemp_plant.json' missing model for variant: 'rustex_loot:hemp_plant#age=3'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/berry_bush.json' missing model for variant: 'rustex_loot:berry_bush#age=3'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/berry_bush.json' missing model for variant: 'rustex_loot:berry_bush#age=0'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/berry_bush.json' missing model for variant: 'rustex_loot:berry_bush#age=1'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/berry_bush.json' missing model for variant: 'rustex_loot:berry_bush#age=2'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/mushroom_red_plant.json' missing model for variant: 'rustex_loot:mushroom_red_plant#age=3'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/mushroom_red_plant.json' missing model for variant: 'rustex_loot:mushroom_red_plant#age=2'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/mushroom_red_plant.json' missing model for variant: 'rustex_loot:mushroom_red_plant#age=1'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/mushroom_red_plant.json' missing model for variant: 'rustex_loot:mushroom_red_plant#age=0'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/mushroom_blue_plant.json' missing model for variant: 'rustex_loot:mushroom_blue_plant#age=3'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/mushroom_blue_plant.json' missing model for variant: 'rustex_loot:mushroom_blue_plant#age=2'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/mushroom_blue_plant.json' missing model for variant: 'rustex_loot:mushroom_blue_plant#age=1'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/mushroom_blue_plant.json' missing model for variant: 'rustex_loot:mushroom_blue_plant#age=0'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/metal_ore.json' missing model for variant: 'rustex_loot:metal_ore#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/sulfur_ore.json' missing model for variant: 'rustex_loot:sulfur_ore#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/stone_ore.json' missing model for variant: 'rustex_loot:stone_ore#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/coal_ore_rust.json' missing model for variant: 'rustex_loot:coal_ore_rust#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/hqm_ore.json' missing model for variant: 'rustex_loot:hqm_ore#'
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:stone_ore#inventory' referenced from: rustex_loot:stone_ore#inventory: java.io.FileNotFoundException: rustex_loot:models/item/stone_ore.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:low_grade_fuel#inventory' referenced from: rustex_loot:low_grade_fuel#inventory: java.io.FileNotFoundException: rustex_loot:models/item/low_grade_fuel.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:metal_fragments#inventory' referenced from: rustex_loot:metal_fragments#inventory: java.io.FileNotFoundException: rustex_loot:models/item/metal_fragments.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:berry_bush#inventory' referenced from: rustex_loot:berry_bush#inventory: java.io.FileNotFoundException: rustex_loot:models/item/berry_bush.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:mushroom_red#inventory' referenced from: rustex_loot:mushroom_red#inventory: java.io.FileNotFoundException: rustex_loot:models/item/mushroom_red.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:mushroom_blue_plant#inventory' referenced from: rustex_loot:mushroom_blue_plant#inventory: java.io.FileNotFoundException: rustex_loot:models/item/mushroom_blue_plant.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_survival:rad_zone_high#inventory' referenced from: rustex_survival:rad_zone_high#inventory: java.io.FileNotFoundException: rustex_survival:models/item/rad_zone_high.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:elite_crate#inventory' referenced from: rustex_loot:elite_crate#inventory: java.io.FileNotFoundException: rustex_loot:models/item/elite_crate.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:anti_rad_pills#inventory' referenced from: rustex_loot:anti_rad_pills#inventory: java.io.FileNotFoundException: rustex_loot:models/item/anti_rad_pills.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:sulfur#inventory' referenced from: rustex_loot:sulfur#inventory: java.io.FileNotFoundException: rustex_loot:models/item/sulfur.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:military_crate#inventory' referenced from: rustex_loot:military_crate#inventory: java.io.FileNotFoundException: rustex_loot:models/item/military_crate.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:hqm_ore#inventory' referenced from: rustex_loot:hqm_ore#inventory: java.io.FileNotFoundException: rustex_loot:models/item/hqm_ore.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:semi_auto_body#inventory' referenced from: rustex_loot:semi_auto_body#inventory: java.io.FileNotFoundException: rustex_loot:models/item/semi_auto_body.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:mushroom_blue#inventory' referenced from: rustex_loot:mushroom_blue#inventory: java.io.FileNotFoundException: rustex_loot:models/item/mushroom_blue.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:scrap#inventory' referenced from: rustex_loot:scrap#inventory: java.io.FileNotFoundException: rustex_loot:models/item/scrap.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_survival:rad_zone_low#inventory' referenced from: rustex_survival:rad_zone_low#inventory: java.io.FileNotFoundException: rustex_survival:models/item/rad_zone_low.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:metal_ore#inventory' referenced from: rustex_loot:metal_ore#inventory: java.io.FileNotFoundException: rustex_loot:models/item/metal_ore.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:medical_crate#inventory' referenced from: rustex_loot:medical_crate#inventory: java.io.FileNotFoundException: rustex_loot:models/item/medical_crate.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:high_quality_metal#inventory' referenced from: rustex_loot:high_quality_metal#inventory: java.io.FileNotFoundException: rustex_loot:models/item/high_quality_metal.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_survival:rad_zone_minor#inventory' referenced from: rustex_survival:rad_zone_minor#inventory: java.io.FileNotFoundException: rustex_survival:models/item/rad_zone_minor.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:hemp_seed#inventory' referenced from: rustex_loot:hemp_seed#inventory: java.io.FileNotFoundException: rustex_loot:models/item/hemp_seed.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:oil_barrel#inventory' referenced from: rustex_loot:oil_barrel#inventory: java.io.FileNotFoundException: rustex_loot:models/item/oil_barrel.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:food_crate#inventory' referenced from: rustex_loot:food_crate#inventory: java.io.FileNotFoundException: rustex_loot:models/item/food_crate.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:gear#inventory' referenced from: rustex_loot:gear#inventory: java.io.FileNotFoundException: rustex_loot:models/item/gear.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:metal_spring#inventory' referenced from: rustex_loot:metal_spring#inventory: java.io.FileNotFoundException: rustex_loot:models/item/metal_spring.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:barrel#inventory' referenced from: rustex_loot:barrel#inventory: java.io.FileNotFoundException: rustex_loot:models/item/barrel.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:rifle_body#inventory' referenced from: rustex_loot:rifle_body#inventory: java.io.FileNotFoundException: rustex_loot:models/item/rifle_body.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:rope#inventory' referenced from: rustex_loot:rope#inventory: java.io.FileNotFoundException: rustex_loot:models/item/rope.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:berries#inventory' referenced from: rustex_loot:berries#inventory: java.io.FileNotFoundException: rustex_loot:models/item/berries.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:crude_oil#inventory' referenced from: rustex_loot:crude_oil#inventory: java.io.FileNotFoundException: rustex_loot:models/item/crude_oil.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:coal_ore_rust#inventory' referenced from: rustex_loot:coal_ore_rust#inventory: java.io.FileNotFoundException: rustex_loot:models/item/coal_ore_rust.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_survival:rad_zone_medium#inventory' referenced from: rustex_survival:rad_zone_medium#inventory: java.io.FileNotFoundException: rustex_survival:models/item/rad_zone_medium.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:cloth#inventory' referenced from: rustex_loot:cloth#inventory: java.io.FileNotFoundException: rustex_loot:models/item/cloth.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:hemp_plant#inventory' referenced from: rustex_loot:hemp_plant#inventory: java.io.FileNotFoundException: rustex_loot:models/item/hemp_plant.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:sulfur_ore#inventory' referenced from: rustex_loot:sulfur_ore#inventory: java.io.FileNotFoundException: rustex_loot:models/item/sulfur_ore.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:wood_planks_rust#inventory' referenced from: rustex_loot:wood_planks_rust#inventory: java.io.FileNotFoundException: rustex_loot:models/item/wood_planks_rust.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:wooden_crate#inventory' referenced from: rustex_loot:wooden_crate#inventory: java.io.FileNotFoundException: rustex_loot:models/item/wooden_crate.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:tech_trash#inventory' referenced from: rustex_loot:tech_trash#inventory: java.io.FileNotFoundException: rustex_loot:models/item/tech_trash.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:mushroom_red_plant#inventory' referenced from: rustex_loot:mushroom_red_plant#inventory: java.io.FileNotFoundException: rustex_loot:models/item/mushroom_red_plant.json
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:wall_stone#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/wall_stone
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_raids:timed_explosive#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_raids:item/timed_explosive
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_mobs:raw_wolf_mob#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_mobs:item/raw_wolf_mob
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_transport:minicopter#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_transport:item/minicopter
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:recycler#:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/recycler
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:workbench_t3#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/workbench_t3
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_raids:rocket_he#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_raids:item/rocket_he
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_loot:door_red#open=true:
+    minecraft:textures/atlas/blocks.png:rustex_loot:block/door_red
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:repair_bench#:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/repair_bench
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:berries_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/berries_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_loot:door_blue#open=true:
+    minecraft:textures/atlas/blocks.png:rustex_loot:block/door_blue
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:scrap#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:item/scrap
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:burlap_shirt#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/burlap_shirt
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_raids:satchel_charge#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_raids:item/satchel_charge
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:raw_chicken_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/raw_chicken_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:workbench_t1#:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/workbench_t1
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:tool_cupboard#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/tool_cupboard
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:research_table#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/research_table
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:wall_armored#:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/wall_armored
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:cooked_fish_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/cooked_fish_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:wall_metal#:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/wall_metal
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:wall_wood#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/wall_wood
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:cooked_chicken_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/cooked_chicken_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_loot:keycard_blue#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_loot:item/keycard_blue
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:granola_bar#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/granola_bar
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:oil_refinery#:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/oil_refinery
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:metal_facemask#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/metal_facemask
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:water_bottle_rust#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/water_bottle_rust
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:wall_armored#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/wall_armored
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:mushroom_blue_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/mushroom_blue_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:medkit_large#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/medkit_large
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:workbench_t2#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/workbench_t2
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_loot:door_blue#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_loot:block/door_blue
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:recycler_safe_zone#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/recycler_safe_zone
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:corn_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/corn_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:riot_helmet#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/riot_helmet
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:dirty_water#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/dirty_water
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_loot:keycard_green#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_loot:item/keycard_green
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:workbench_t2#:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/workbench_t2
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_raids:rocket_hv#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_raids:item/rocket_hv
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:recycler_safe_zone#:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/recycler_safe_zone
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:repair_bench#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/repair_bench
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_raids:smoke_grenade#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_raids:item/smoke_grenade
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:burlap_trousers#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/burlap_trousers
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:hazmat_suit#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/hazmat_suit
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_loot:keycard_red#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_loot:item/keycard_red
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:bandage#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/bandage
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_loot:door_green#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_loot:block/door_green
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:cooked_pork_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/cooked_pork_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_raids:beancan_grenade#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_raids:item/beancan_grenade
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:raw_pork_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/raw_pork_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:pumpkin_slice_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/pumpkin_slice_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:tea#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/tea
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:workbench_t1#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/workbench_t1
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:bucket_helmet#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/bucket_helmet
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:road_sign_kilt#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/road_sign_kilt
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_raids:f1_grenade#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_raids:item/f1_grenade
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:canned_beans#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/canned_beans
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_mobs:raw_bear_mob#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_mobs:item/raw_bear_mob
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:mushroom_red_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/mushroom_red_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:medkit_small#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/medkit_small
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:wall_stone#:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/wall_stone
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:raw_bear_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/raw_bear_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:coffee_can_helmet#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/coffee_can_helmet
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:purified_water#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/purified_water
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:cooked_bear_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/cooked_bear_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:canned_tuna#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/canned_tuna
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:salt_water#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/salt_water
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:wall_wood#:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/wall_wood
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:oil_refinery#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/oil_refinery
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:wall_metal#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/wall_metal
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:workbench_t3#:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/workbench_t3
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:road_sign_jacket#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/road_sign_jacket
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_mobs:animal_fat#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_mobs:item/animal_fat
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:raw_fish_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/raw_fish_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:blueprint#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:item/blueprint
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_loot:fuse#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_loot:item/fuse
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:pain_killer#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/pain_killer
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:sleeping_bag#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_building:item/sleeping_bag
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:code_lock#:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/code_lock
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_mobs:raw_deer_mob#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_mobs:item/raw_deer_mob
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_raids:rocket_incendiary#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_raids:item/rocket_incendiary
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:tool_cupboard#:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/tool_cupboard
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:research_table#:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/research_table
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_mobs:wolf_skull#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_mobs:item/wolf_skull
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:metal_chestplate_rust#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/metal_chestplate_rust
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:chocolate_bar#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/chocolate_bar
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_loot:door_green#open=false:
+    minecraft:textures/atlas/blocks.png:rustex_loot:block/door_green
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_raids:rocket_launcher#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_raids:item/rocket_launcher
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_loot:door_red#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_loot:block/door_red
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:raw_wolf_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/raw_wolf_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:anti_rad_pills#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/anti_rad_pills
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_mobs:raw_pork_mob#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_mobs:item/raw_pork_mob
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:recycler#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/recycler
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:code_lock#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/code_lock
+[08:14:16] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[08:14:16] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[08:14:17] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on �������� (Realtek(R) Audio)
+[08:14:17] [Render thread/INFO]: Sound engine started
+[08:14:17] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[08:14:17] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[08:14:17] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[08:14:17] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[08:14:17] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[08:14:17] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[08:14:17] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[08:14:17] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[08:14:17] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[08:14:18] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[08:14:18] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[08:14:18] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[08:14:18] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[08:14:25] [Render thread/INFO]: Deleting level ����� ���
+[08:14:25] [Render thread/INFO]: Attempt 1...
+[08:14:27] [Render thread/INFO]: Loaded 7 recipes
+[08:14:27] [Render thread/INFO]: Loaded 1271 advancements
+[08:14:34] [Render thread/INFO]: Loaded 7 recipes
+[08:14:34] [Render thread/INFO]: Loaded 1271 advancements
+[08:14:39] [Render thread/INFO]: Applied 15 biome modifications to 10 of 64 new biomes in 12.12 ms
+[08:14:39] [Server thread/INFO]: Starting integrated minecraft server version 1.20.1
+[08:14:39] [Server thread/INFO]: Generating keypair
+[08:14:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:14:49] [Render thread/INFO]: ���������� ������� �����������: 0%
+[08:14:49] [Render thread/INFO]: ���������� ������� �����������: 0%
+[08:14:49] [Render thread/INFO]: ���������� ������� �����������: 0%
+[08:14:49] [Render thread/INFO]: ���������� ������� �����������: 0%
+[08:14:49] [Render thread/INFO]: ���������� ������� �����������: 0%
+[08:14:50] [Render thread/INFO]: ���������� ������� �����������: 0%
+[08:14:50] [Render thread/INFO]: ���������� ������� �����������: 0%
+[08:14:50] [Render thread/INFO]: ���������� ������� �����������: 0%
+[08:14:51] [Render thread/INFO]: ���������� ������� �����������: 0%
+[08:14:51] [Render thread/INFO]: ���������� ������� �����������: 1%
+[08:14:52] [Render thread/INFO]: ���������� ������� �����������: 1%
+[08:14:53] [Render thread/INFO]: ���������� ������� �����������: 1%
+[08:14:53] [Render thread/INFO]: ���������� ������� �����������: 2%
+[08:14:53] [Render thread/INFO]: ���������� ������� �����������: 2%
+[08:14:54] [Render thread/INFO]: ���������� ������� �����������: 2%
+[08:14:54] [Render thread/INFO]: ���������� ������� �����������: 3%
+[08:14:55] [Render thread/INFO]: ���������� ������� �����������: 3%
+[08:14:55] [Render thread/INFO]: ���������� ������� �����������: 4%
+[08:14:56] [Render thread/INFO]: ���������� ������� �����������: 4%
+[08:14:56] [Render thread/INFO]: ���������� ������� �����������: 5%
+[08:14:57] [Render thread/INFO]: ���������� ������� �����������: 5%
+[08:14:57] [Render thread/INFO]: ���������� ������� �����������: 7%
+[08:14:58] [Render thread/INFO]: ���������� ������� �����������: 8%
+[08:14:58] [Render thread/INFO]: ���������� ������� �����������: 9%
+[08:14:59] [Render thread/INFO]: ���������� ������� �����������: 10%
+[08:14:59] [Render thread/INFO]: ���������� ������� �����������: 11%
+[08:15:00] [Render thread/INFO]: ���������� ������� �����������: 13%
+[08:15:00] [Render thread/INFO]: ���������� ������� �����������: 15%
+[08:15:01] [Render thread/INFO]: ���������� ������� �����������: 16%
+[08:15:01] [Render thread/INFO]: ���������� ������� �����������: 17%
+[08:15:02] [Render thread/INFO]: ���������� ������� �����������: 19%
+[08:15:02] [Render thread/INFO]: ���������� ������� �����������: 20%
+[08:15:03] [Render thread/INFO]: ���������� ������� �����������: 21%
+[08:15:03] [Render thread/INFO]: ���������� ������� �����������: 23%
+[08:15:04] [Render thread/INFO]: ���������� ������� �����������: 24%
+[08:15:04] [Render thread/INFO]: ���������� ������� �����������: 25%
+[08:15:05] [Render thread/INFO]: ���������� ������� �����������: 27%
+[08:15:05] [Render thread/INFO]: ���������� ������� �����������: 28%
+[08:15:06] [Render thread/INFO]: ���������� ������� �����������: 31%
+[08:15:06] [Render thread/INFO]: ���������� ������� �����������: 31%
+[08:15:07] [Render thread/INFO]: ���������� ������� �����������: 33%
+[08:15:09] [Render thread/INFO]: ���������� ������� �����������: 33%
+[08:15:09] [Render thread/INFO]: ���������� ������� �����������: 33%
+[08:15:09] [Render thread/INFO]: ���������� ������� �����������: 33%
+[08:15:09] [Render thread/INFO]: ���������� ������� �����������: 33%
+[08:15:09] [Render thread/INFO]: ���������� ������� �����������: 35%
+[08:15:10] [Render thread/INFO]: ���������� ������� �����������: 37%
+[08:15:10] [Render thread/INFO]: ���������� ������� �����������: 39%
+[08:15:11] [Render thread/INFO]: ���������� ������� �����������: 42%
+[08:15:11] [Render thread/INFO]: ���������� ������� �����������: 43%
+[08:15:12] [Render thread/INFO]: ���������� ������� �����������: 45%
+[08:15:12] [Render thread/INFO]: ���������� ������� �����������: 47%
+[08:15:13] [Render thread/INFO]: ���������� ������� �����������: 49%
+[08:15:13] [Render thread/INFO]: ���������� ������� �����������: 51%
+[08:15:14] [Render thread/INFO]: ���������� ������� �����������: 53%
+[08:15:14] [Render thread/INFO]: ���������� ������� �����������: 55%
+[08:15:15] [Render thread/INFO]: ���������� ������� �����������: 56%
+[08:15:15] [Render thread/INFO]: ���������� ������� �����������: 58%
+[08:15:16] [Render thread/INFO]: ���������� ������� �����������: 61%
+[08:15:16] [Render thread/INFO]: ���������� ������� �����������: 62%
+[08:15:17] [Render thread/INFO]: ���������� ������� �����������: 64%
+[08:15:18] [Render thread/INFO]: ���������� ������� �����������: 67%
+[08:15:18] [Render thread/INFO]: ���������� ������� �����������: 68%
+[08:15:18] [Render thread/INFO]: ���������� ������� �����������: 69%
+[08:15:19] [Render thread/INFO]: ���������� ������� �����������: 72%
+[08:15:19] [Render thread/INFO]: ���������� ������� �����������: 74%
+[08:15:20] [Render thread/INFO]: ���������� ������� �����������: 76%
+[08:15:20] [Render thread/INFO]: ���������� ������� �����������: 78%
+[08:15:21] [Render thread/INFO]: ���������� ������� �����������: 80%
+[08:15:21] [Render thread/INFO]: ���������� ������� �����������: 83%
+[08:15:22] [Render thread/INFO]: ���������� ������� �����������: 84%
+[08:15:22] [Render thread/INFO]: ���������� ������� �����������: 86%
+[08:15:23] [Render thread/INFO]: ���������� ������� �����������: 88%
+[08:15:23] [Render thread/INFO]: ���������� ������� �����������: 90%
+[08:15:24] [Render thread/INFO]: ���������� ������� �����������: 91%
+[08:15:24] [Render thread/INFO]: ���������� ������� �����������: 94%
+[08:15:25] [Render thread/INFO]: ���������� ������� �����������: 96%
+[08:15:25] [Render thread/INFO]: ���������� ������� �����������: 99%
+[08:15:26] [Render thread/INFO]: Time elapsed: 38658 ms
+[08:15:26] [Server thread/INFO]: Changing view distance to 12, from 10
+[08:15:26] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[08:15:27] [Server thread/INFO]: Blockdawn[local:E:c2ada063] logged in with entity id 202 at (9.5, 118.0, 1.5)
+[08:15:27] [Server thread/INFO]: [AutoLoader] ����� ���������� ���� ������: Blockdawn
+[08:15:28] [Server thread/INFO]: Blockdawn ������������� � ����
+[08:15:28] [Render thread/INFO]: [AutoLoader] ��������� � �������, ������� ����...
+[08:15:28] [Render thread/INFO]: [AutoLoader] ���������� ���� ������� �� �������
+[08:15:28] [Server thread/INFO]: [AutoLoader] ���� ����������: Blockdawn
+[08:15:28] [Server thread/WARN]: [AutoLoader] rustex_manifest.json �� ������!
+[08:15:30] [Render thread/INFO]: Loaded 2 advancements
+[08:15:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2047ms or 40 ticks behind
+[08:15:42] [Server thread/INFO]: Saving and pausing game...
+[08:15:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:overworld
+[08:15:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:the_end
+[08:15:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:the_nether
+[08:16:11] [Server thread/INFO]: Saving and pausing game...
+[08:16:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:overworld
+[08:16:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:the_end
+[08:16:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:the_nether
+[08:16:31] [Server thread/INFO]: [Blockdawn: ��� ����� ���� ������� �� ���������� �����]
+[08:16:32] [Render thread/INFO]: [System] [CHAT] ��� ����� ���� ������� �� ���������� �����
+[08:17:36] [Server thread/INFO]: [Not Secure] <Blockdawn> ������ �� ����� ������ �� ������
+[08:17:36] [Render thread/INFO]: [CHAT] <Blockdawn> ������ �� ����� ������ �� ������
+[08:17:38] [Server thread/INFO]: Saving and pausing game...
+[08:17:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:overworld
+[08:17:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:the_end
+[08:17:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:the_nether
+[08:17:58] [Render thread/ERROR]: Unreported exception thrown!
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_897.method_3933(net.minecraft.class_1297, net.minecraft.class_4604, double, double, double)" because "$$5" is null
+	at net.minecraft.class_898.method_3950(class_898.java:131) ~[client-intermediary.jar:?]
+	at net.minecraft.class_761.method_22710(class_761.java:1288) ~[client-intermediary.jar:?]
+	at net.minecraft.class_757.method_3188(class_757.java:1110) ~[client-intermediary.jar:?]
+	at net.minecraft.class_757.method_3192(class_757.java:880) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1219) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:250) ~[fabric-loader-0.15.11-1.20.1.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.11.jar:?]
+[08:17:59] [Server thread/INFO]: Stopping server
+[08:17:59] [Server thread/INFO]: Saving players
+[08:17:59] [Server thread/INFO]: [AutoLoader] ������ ������������: Blockdawn
+[08:17:59] [Server thread/INFO]: Blockdawn lost connection: ����������
+[08:17:59] [Netty Local Client IO #0/INFO]: [AutoLoader] �������� �� �������, ���� �����������.
+[08:17:59] [Server thread/INFO]: Blockdawn ������� ����
+[08:17:59] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[08:17:59] [Server thread/INFO]: Saving worlds
+[08:18:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:overworld
+[08:18:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:the_end
+[08:18:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:the_nether
+[08:18:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (����� ���): All chunks are saved
+[08:18:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:18:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:18:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+---- Minecraft Crash Report ----
+// There are four lights!
+
+Time: 2026-11-09 08:18:03
+Description: Unexpected error
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_897.method_3933(net.minecraft.class_1297, net.minecraft.class_4604, double, double, double)" because "$$5" is null
+	at net.minecraft.class_898.method_3950(class_898.java:131)
+	at net.minecraft.class_761.method_22710(class_761.java:1288)
+	at net.minecraft.class_757.method_3188(class_757.java:1110)
+	at net.minecraft.class_757.method_3192(class_757.java:880)
+	at net.minecraft.class_310.method_1523(class_310.java:1219)
+	at net.minecraft.class_310.method_1514(class_310.java:802)
+	at net.minecraft.client.main.Main.main(Main.java:250)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.minecraft.class_898.method_3950(class_898.java:131)
+	at net.minecraft.class_761.method_22710(class_761.java:1288)
+	at net.minecraft.class_757.method_3188(class_757.java:1110)
+
+-- Affected level --
+Details:
+	All players: 1 total; [class_746['Blockdawn'/202, l='ClientLevel', x=39.02, y=155.78, z=26.92]]
+	Chunk stats: 961, 598
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,127,0), Section: (at 0,15,0 in 0,7,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 2327 game time, 2327 day time
+	Server brand: fabric
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.class_638.method_8538(class_638.java:458)
+	at net.minecraft.class_310.method_1587(class_310.java:2406)
+	at net.minecraft.class_310.method_1514(class_310.java:826)
+	at net.minecraft.client.main.Main.main(Main.java:250)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: vanilla, fabric
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.15, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 831674880 bytes (793 MiB) / 2027945984 bytes (1934 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Pentium(R) Gold 7505 @ 2.00GHz
+	Identifier: Intel64 Family 6 Model 140 Stepping 1
+	Microarchitecture: Tiger Lake
+	Frequency (GHz): 2.00
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: Intel(R) UHD Graphics
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 1024.00
+	Graphics card #0 deviceId: 0x9a78
+	Graphics card #0 versionInfo: DriverVersion=31.0.101.4255
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Virtual memory max (MB): 16590.55
+	Virtual memory used (MB): 8724.78
+	Swap memory total (MB): 8704.00
+	Swap memory used (MB): 61.33
+	JVM Flags: 3 total; -Xmx4096M -Xms512M -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Fabric Mods: 
+		fabric-api: Fabric API 0.92.2+1.20.1
+			fabric-api-base: Fabric API Base 0.4.31+1802ada577
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.36+1802ada577
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.13+1802ada577
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.11+1802ada577
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.1+1802ada577
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.41+1802ada577
+			fabric-client-tags-api-v1: Fabric Client Tags 1.1.2+1802ada577
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.34+f71b366f77
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.13+1802ada577
+			fabric-commands-v0: Fabric Commands (v0) 0.2.51+df3654b377
+			fabric-containers-v0: Fabric Containers (v0) 0.1.64+df3654b377
+			fabric-content-registries-v0: Fabric Content Registries (v0) 4.0.11+1802ada577
+			fabric-convention-tags-v1: Fabric Convention Tags 1.5.5+1802ada577
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.19+1802ada577
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.0.0+de0fd6d177
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 12.3.4+1802ada577
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.54+1802ada577
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.6.0+1c78457f77
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.6.2+1802ada577
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.63+df3654b377
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.40+1802ada577
+			fabric-item-api-v1: Fabric Item API (v1) 2.1.28+1802ada577
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.0.12+1802ada577
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.37+1802ada577
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.35+df3654b377
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.22+1802ada577
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.2.1+1802ada577
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.45+9e7660c677
+			fabric-message-api-v1: Fabric Message API (v1) 5.1.9+1802ada577
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.50+1802ada577
+			fabric-model-loading-api-v1: Fabric Model Loading API (v1) 1.0.3+1802ada577
+			fabric-models-v0: Fabric Models (v0) 0.4.2+9386d8a777
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.3.11+1802ada577
+			fabric-networking-v0: Fabric Networking (v0) 0.3.51+df3654b377
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 11.1.3+1802ada577
+			fabric-particles-v1: Fabric Particles (v1) 1.1.2+1802ada577
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.21+1802ada577
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 2.3.3+1802ada577
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 3.2.1+1802ada577
+			fabric-renderer-indigo: Fabric Renderer - Indigo 1.5.2+85287f9f77
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.46+df3654b377
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.37+92a0d36777
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.28+1802ada577
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.49+df3654b377
+			fabric-rendering-v1: Fabric Rendering (v1) 3.0.8+1802ada577
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.3.8+1802ada577
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.11.10+1802ada577
+			fabric-screen-api-v1: Fabric Screen API (v1) 2.0.8+1802ada577
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.30+1802ada577
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.13+1802ada577
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 3.3.5+8dd72ea377
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 4.3.1+1802ada577
+		fabricloader: Fabric Loader 0.15.11
+			mixinextras: MixinExtras 0.3.5
+		java: OpenJDK 64-Bit Server VM 17
+		minecraft: Minecraft 1.20.1
+		rustex_autoloader: RustEx AutoLoader 1.0.0
+		rustex_building: RustEx Building 1.1.0
+		rustex_crafting: RustEx Crafting 1.0.0
+		rustex_loot: RustEx Loot 1.0.0
+		rustex_mobs: RustEx Mobs 1.1.0
+		rustex_raids: RustEx Raids 1.0.0
+		rustex_survival: RustEx Survival 1.1.0
+		rustex_transport: RustEx Transport 1.0.0
+		rustex_world: RustEx World 1.0.0
+	Launched Version: fabric-loader-0.15.11-1.20.1
+	Backend library: LWJGL version 3.3.1 SNAPSHOT
+	Backend API: Intel(R) UHD Graphics GL version 3.2.0 - Build 31.0.101.4255, Intel
+	Window size: 854x480
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fabric'; Server brand changed to 'fabric'
+	Type: Integrated Server (map_client.txt)
+	Graphics mode: fast
+	Resource Packs: fabric
+	Current Language: ru_ru
+	CPU: 4x Intel(R) Pentium(R) Gold 7505 @ 2.00GHz
+	Server Running: true
+	Player Count: 1 / 8; [class_3222['Blockdawn'/202, l='ServerLevel[����� ���]', x=39.02, y=155.78, z=26.92]]
+	Data Packs: vanilla, fabric
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+#@!@# Game crashed! Crash report saved to: #@!@# C:\Users\<user>\AppData\Roaming\RustExLauncher\game\crash-reports\crash-2026-11-09_08.18.03-client.txt
+
+
+===== latest.log =====
+[08:13:52] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.11
+[08:13:52] [main/INFO]: Loading 66 mods:
+	- fabric-api 0.92.2+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.64+df3654b377
+	   |-- fabric-content-registries-v0 4.0.11+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.4+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.2+1802ada577
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.12+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.1+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.45+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.50+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.11+1802ada577
+	   |-- fabric-networking-v0 0.3.51+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.3+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.21+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.3+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.2+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.10+1802ada577
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabricloader 0.15.11
+	   \-- mixinextras 0.3.5
+	- java 17
+	- minecraft 1.20.1
+	- rustex_autoloader 1.0.0
+	- rustex_building 1.1.0
+	- rustex_crafting 1.0.0
+	- rustex_loot 1.0.0
+	- rustex_mobs 1.1.0
+	- rustex_raids 1.0.0
+	- rustex_survival 1.1.0
+	- rustex_transport 1.0.0
+	- rustex_world 1.0.0
+[08:13:52] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/<user>/AppData/Roaming/RustExLauncher/game/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[08:13:53] [main/INFO]: Compatibility level set to JAVA_16
+[08:13:53] [main/INFO]: Compatibility level set to JAVA_17
+[08:13:55] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[08:14:04] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 399 milliseconds
+[08:14:08] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08:14:09] [Render thread/ERROR]: Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:124) ~[authlib-4.0.43.jar:?]
+	at net.minecraft.class_310.method_31382(class_310.java:733) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:442) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:211) ~[fabric-loader-0.15.11-1.20.1.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.11.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:85) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
+	... 8 more
+[08:14:10] [Render thread/INFO]: Setting user: Blockdawn
+[08:14:10] [Render thread/INFO]: [RustEx AutoLoader] ������������� v1.0.0...
+[08:14:10] [Render thread/INFO]: [RustEx AutoLoader] ? ��������� ��������� �������
+[08:14:10] [Render thread/INFO]: [RustEx AutoLoader] ? ���������� �����: HMAC-SHA256
+[08:14:10] [Render thread/INFO]: [RustEx AutoLoader] ? ���������� �����: AES-256-GCM
+[08:14:10] [Render thread/INFO]: [RustEx AutoLoader] ���������!
+[08:14:10] [Render thread/INFO]: [RustEx Building] �������������...
+[08:14:10] [Render thread/INFO]: [RustEx Building] ? �����: 4 ������
+[08:14:10] [Render thread/INFO]: [RustEx Building] ? ���� �����������
+[08:14:10] [Render thread/INFO]: [RustEx Building] ? �������� �����
+[08:14:10] [Render thread/INFO]: [RustEx Building] ? ������� ����� (/lock)
+[08:14:10] [Render thread/INFO]: [RustEx Building] ���������!
+[08:14:10] [Render thread/INFO]: [RustEx Crafting] �������������...
+[08:14:10] [Render thread/INFO]: [RustEx Crafting] ? ������ ����������: 61 �����
+[08:14:10] [Render thread/INFO]: [RustEx Crafting] ? T1=26 | T2=21 | T3=14
+[08:14:10] [Render thread/INFO]: [RustEx Crafting] ���������!
+[08:14:10] [Render thread/INFO]: [RustEx Loot] ���������: 7 �����������, 4 ��������, 5 ���, ����-�����, ����� ����������
+[08:14:10] [Render thread/INFO]: [RustEx Mobs] ���������: �����/�����/�������/���� + ������ 6 ����� (GenericScientistEntity)
+[08:14:10] [Render thread/INFO]: [RustEx Raids] Building ��� ������
+[08:14:10] [Render thread/INFO]: [RustEx Raids] ���������: �������, C4/������, ���������+3 ������. Building ���: ������
+[08:14:10] [Render thread/INFO]: [RustEx Survival] ���������: �������/����/�����������/��������(4 ������), ������, ����-�����
+[08:14:10] [Render thread/INFO]: [RustEx Transport] ���������: ���������� (2 ���������, HP 1000, ��� 500)
+[08:14:10] [Render thread/INFO]: RustEx World ��������: 9 ����������, ��������� �� ����� (gamerule rustexMonuments)
+[08:14:10] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[08:14:11] [Render thread/INFO]: [AutoLoader] ������ ���������������.
+[08:14:11] [Render thread/INFO]: [RustEx Building] ������ ���������������
+[08:14:11] [Render thread/INFO]: [RustEx Crafting] ������ � GUI ������ ���������� ��������
+[08:14:11] [Render thread/INFO]: RustEx World (������) ��������
+[08:14:11] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[08:14:13] [Worker-Main-1/ERROR]: Failed to retrieve profile key pair
+java.io.IOException: Could not retrieve profile key pair
+	at net.minecraft.class_7434.method_43605(class_7434.java:139) ~[client-intermediary.jar:?]
+	at net.minecraft.class_7434.method_44291(class_7434.java:79) ~[client-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[08:14:13] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, rustex_autoloader, rustex_building, rustex_crafting, rustex_loot, rustex_mobs, rustex_raids, rustex_survival, rustex_transport, rustex_world)
+[08:14:13] [Worker-Main-2/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[08:14:14] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/barrel.json' missing model for variant: 'rustex_loot:barrel#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/oil_barrel.json' missing model for variant: 'rustex_loot:oil_barrel#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/wooden_crate.json' missing model for variant: 'rustex_loot:wooden_crate#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/military_crate.json' missing model for variant: 'rustex_loot:military_crate#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/elite_crate.json' missing model for variant: 'rustex_loot:elite_crate#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/food_crate.json' missing model for variant: 'rustex_loot:food_crate#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/medical_crate.json' missing model for variant: 'rustex_loot:medical_crate#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/hemp_plant.json' missing model for variant: 'rustex_loot:hemp_plant#age=0'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/hemp_plant.json' missing model for variant: 'rustex_loot:hemp_plant#age=1'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/hemp_plant.json' missing model for variant: 'rustex_loot:hemp_plant#age=2'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/hemp_plant.json' missing model for variant: 'rustex_loot:hemp_plant#age=3'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/berry_bush.json' missing model for variant: 'rustex_loot:berry_bush#age=3'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/berry_bush.json' missing model for variant: 'rustex_loot:berry_bush#age=0'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/berry_bush.json' missing model for variant: 'rustex_loot:berry_bush#age=1'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/berry_bush.json' missing model for variant: 'rustex_loot:berry_bush#age=2'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/mushroom_red_plant.json' missing model for variant: 'rustex_loot:mushroom_red_plant#age=3'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/mushroom_red_plant.json' missing model for variant: 'rustex_loot:mushroom_red_plant#age=2'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/mushroom_red_plant.json' missing model for variant: 'rustex_loot:mushroom_red_plant#age=1'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/mushroom_red_plant.json' missing model for variant: 'rustex_loot:mushroom_red_plant#age=0'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/mushroom_blue_plant.json' missing model for variant: 'rustex_loot:mushroom_blue_plant#age=3'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/mushroom_blue_plant.json' missing model for variant: 'rustex_loot:mushroom_blue_plant#age=2'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/mushroom_blue_plant.json' missing model for variant: 'rustex_loot:mushroom_blue_plant#age=1'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/mushroom_blue_plant.json' missing model for variant: 'rustex_loot:mushroom_blue_plant#age=0'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/metal_ore.json' missing model for variant: 'rustex_loot:metal_ore#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/sulfur_ore.json' missing model for variant: 'rustex_loot:sulfur_ore#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/stone_ore.json' missing model for variant: 'rustex_loot:stone_ore#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/coal_ore_rust.json' missing model for variant: 'rustex_loot:coal_ore_rust#'
+[08:14:15] [Worker-Main-3/WARN]: Exception loading blockstate definition: 'rustex_loot:blockstates/hqm_ore.json' missing model for variant: 'rustex_loot:hqm_ore#'
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:stone_ore#inventory' referenced from: rustex_loot:stone_ore#inventory: java.io.FileNotFoundException: rustex_loot:models/item/stone_ore.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:low_grade_fuel#inventory' referenced from: rustex_loot:low_grade_fuel#inventory: java.io.FileNotFoundException: rustex_loot:models/item/low_grade_fuel.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:metal_fragments#inventory' referenced from: rustex_loot:metal_fragments#inventory: java.io.FileNotFoundException: rustex_loot:models/item/metal_fragments.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:berry_bush#inventory' referenced from: rustex_loot:berry_bush#inventory: java.io.FileNotFoundException: rustex_loot:models/item/berry_bush.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:mushroom_red#inventory' referenced from: rustex_loot:mushroom_red#inventory: java.io.FileNotFoundException: rustex_loot:models/item/mushroom_red.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:mushroom_blue_plant#inventory' referenced from: rustex_loot:mushroom_blue_plant#inventory: java.io.FileNotFoundException: rustex_loot:models/item/mushroom_blue_plant.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_survival:rad_zone_high#inventory' referenced from: rustex_survival:rad_zone_high#inventory: java.io.FileNotFoundException: rustex_survival:models/item/rad_zone_high.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:elite_crate#inventory' referenced from: rustex_loot:elite_crate#inventory: java.io.FileNotFoundException: rustex_loot:models/item/elite_crate.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:anti_rad_pills#inventory' referenced from: rustex_loot:anti_rad_pills#inventory: java.io.FileNotFoundException: rustex_loot:models/item/anti_rad_pills.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:sulfur#inventory' referenced from: rustex_loot:sulfur#inventory: java.io.FileNotFoundException: rustex_loot:models/item/sulfur.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:military_crate#inventory' referenced from: rustex_loot:military_crate#inventory: java.io.FileNotFoundException: rustex_loot:models/item/military_crate.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:hqm_ore#inventory' referenced from: rustex_loot:hqm_ore#inventory: java.io.FileNotFoundException: rustex_loot:models/item/hqm_ore.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:semi_auto_body#inventory' referenced from: rustex_loot:semi_auto_body#inventory: java.io.FileNotFoundException: rustex_loot:models/item/semi_auto_body.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:mushroom_blue#inventory' referenced from: rustex_loot:mushroom_blue#inventory: java.io.FileNotFoundException: rustex_loot:models/item/mushroom_blue.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:scrap#inventory' referenced from: rustex_loot:scrap#inventory: java.io.FileNotFoundException: rustex_loot:models/item/scrap.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_survival:rad_zone_low#inventory' referenced from: rustex_survival:rad_zone_low#inventory: java.io.FileNotFoundException: rustex_survival:models/item/rad_zone_low.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:metal_ore#inventory' referenced from: rustex_loot:metal_ore#inventory: java.io.FileNotFoundException: rustex_loot:models/item/metal_ore.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:medical_crate#inventory' referenced from: rustex_loot:medical_crate#inventory: java.io.FileNotFoundException: rustex_loot:models/item/medical_crate.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:high_quality_metal#inventory' referenced from: rustex_loot:high_quality_metal#inventory: java.io.FileNotFoundException: rustex_loot:models/item/high_quality_metal.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_survival:rad_zone_minor#inventory' referenced from: rustex_survival:rad_zone_minor#inventory: java.io.FileNotFoundException: rustex_survival:models/item/rad_zone_minor.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:hemp_seed#inventory' referenced from: rustex_loot:hemp_seed#inventory: java.io.FileNotFoundException: rustex_loot:models/item/hemp_seed.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:oil_barrel#inventory' referenced from: rustex_loot:oil_barrel#inventory: java.io.FileNotFoundException: rustex_loot:models/item/oil_barrel.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:food_crate#inventory' referenced from: rustex_loot:food_crate#inventory: java.io.FileNotFoundException: rustex_loot:models/item/food_crate.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:gear#inventory' referenced from: rustex_loot:gear#inventory: java.io.FileNotFoundException: rustex_loot:models/item/gear.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:metal_spring#inventory' referenced from: rustex_loot:metal_spring#inventory: java.io.FileNotFoundException: rustex_loot:models/item/metal_spring.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:barrel#inventory' referenced from: rustex_loot:barrel#inventory: java.io.FileNotFoundException: rustex_loot:models/item/barrel.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:rifle_body#inventory' referenced from: rustex_loot:rifle_body#inventory: java.io.FileNotFoundException: rustex_loot:models/item/rifle_body.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:rope#inventory' referenced from: rustex_loot:rope#inventory: java.io.FileNotFoundException: rustex_loot:models/item/rope.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:berries#inventory' referenced from: rustex_loot:berries#inventory: java.io.FileNotFoundException: rustex_loot:models/item/berries.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:crude_oil#inventory' referenced from: rustex_loot:crude_oil#inventory: java.io.FileNotFoundException: rustex_loot:models/item/crude_oil.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:coal_ore_rust#inventory' referenced from: rustex_loot:coal_ore_rust#inventory: java.io.FileNotFoundException: rustex_loot:models/item/coal_ore_rust.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_survival:rad_zone_medium#inventory' referenced from: rustex_survival:rad_zone_medium#inventory: java.io.FileNotFoundException: rustex_survival:models/item/rad_zone_medium.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:cloth#inventory' referenced from: rustex_loot:cloth#inventory: java.io.FileNotFoundException: rustex_loot:models/item/cloth.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:hemp_plant#inventory' referenced from: rustex_loot:hemp_plant#inventory: java.io.FileNotFoundException: rustex_loot:models/item/hemp_plant.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:sulfur_ore#inventory' referenced from: rustex_loot:sulfur_ore#inventory: java.io.FileNotFoundException: rustex_loot:models/item/sulfur_ore.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:wood_planks_rust#inventory' referenced from: rustex_loot:wood_planks_rust#inventory: java.io.FileNotFoundException: rustex_loot:models/item/wood_planks_rust.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:wooden_crate#inventory' referenced from: rustex_loot:wooden_crate#inventory: java.io.FileNotFoundException: rustex_loot:models/item/wooden_crate.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:tech_trash#inventory' referenced from: rustex_loot:tech_trash#inventory: java.io.FileNotFoundException: rustex_loot:models/item/tech_trash.json
+[08:14:15] [Worker-Main-3/WARN]: Unable to load model: 'rustex_loot:mushroom_red_plant#inventory' referenced from: rustex_loot:mushroom_red_plant#inventory: java.io.FileNotFoundException: rustex_loot:models/item/mushroom_red_plant.json
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:wall_stone#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/wall_stone
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_raids:timed_explosive#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_raids:item/timed_explosive
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_mobs:raw_wolf_mob#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_mobs:item/raw_wolf_mob
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_transport:minicopter#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_transport:item/minicopter
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:recycler#:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/recycler
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:workbench_t3#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/workbench_t3
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_raids:rocket_he#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_raids:item/rocket_he
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_loot:door_red#open=true:
+    minecraft:textures/atlas/blocks.png:rustex_loot:block/door_red
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:repair_bench#:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/repair_bench
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:berries_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/berries_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_loot:door_blue#open=true:
+    minecraft:textures/atlas/blocks.png:rustex_loot:block/door_blue
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:scrap#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:item/scrap
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:burlap_shirt#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/burlap_shirt
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_raids:satchel_charge#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_raids:item/satchel_charge
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:raw_chicken_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/raw_chicken_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:workbench_t1#:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/workbench_t1
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:tool_cupboard#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/tool_cupboard
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:research_table#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/research_table
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:wall_armored#:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/wall_armored
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:cooked_fish_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/cooked_fish_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:wall_metal#:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/wall_metal
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:wall_wood#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/wall_wood
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:cooked_chicken_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/cooked_chicken_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_loot:keycard_blue#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_loot:item/keycard_blue
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:granola_bar#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/granola_bar
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:oil_refinery#:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/oil_refinery
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:metal_facemask#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/metal_facemask
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:water_bottle_rust#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/water_bottle_rust
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:wall_armored#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/wall_armored
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:mushroom_blue_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/mushroom_blue_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:medkit_large#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/medkit_large
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:workbench_t2#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/workbench_t2
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_loot:door_blue#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_loot:block/door_blue
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:recycler_safe_zone#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/recycler_safe_zone
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:corn_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/corn_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:riot_helmet#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/riot_helmet
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:dirty_water#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/dirty_water
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_loot:keycard_green#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_loot:item/keycard_green
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:workbench_t2#:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/workbench_t2
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_raids:rocket_hv#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_raids:item/rocket_hv
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:recycler_safe_zone#:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/recycler_safe_zone
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:repair_bench#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/repair_bench
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_raids:smoke_grenade#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_raids:item/smoke_grenade
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:burlap_trousers#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/burlap_trousers
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:hazmat_suit#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/hazmat_suit
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_loot:keycard_red#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_loot:item/keycard_red
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:bandage#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/bandage
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_loot:door_green#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_loot:block/door_green
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:cooked_pork_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/cooked_pork_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_raids:beancan_grenade#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_raids:item/beancan_grenade
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:raw_pork_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/raw_pork_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:pumpkin_slice_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/pumpkin_slice_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:tea#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/tea
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:workbench_t1#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/workbench_t1
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:bucket_helmet#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/bucket_helmet
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:road_sign_kilt#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/road_sign_kilt
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_raids:f1_grenade#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_raids:item/f1_grenade
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:canned_beans#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/canned_beans
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_mobs:raw_bear_mob#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_mobs:item/raw_bear_mob
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:mushroom_red_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/mushroom_red_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:medkit_small#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/medkit_small
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:wall_stone#:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/wall_stone
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:raw_bear_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/raw_bear_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:coffee_can_helmet#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/coffee_can_helmet
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:purified_water#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/purified_water
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:cooked_bear_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/cooked_bear_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:canned_tuna#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/canned_tuna
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:salt_water#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/salt_water
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:wall_wood#:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/wall_wood
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:oil_refinery#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/oil_refinery
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:wall_metal#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/wall_metal
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:workbench_t3#:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/workbench_t3
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:road_sign_jacket#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/road_sign_jacket
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_mobs:animal_fat#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_mobs:item/animal_fat
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:raw_fish_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/raw_fish_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:blueprint#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:item/blueprint
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_loot:fuse#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_loot:item/fuse
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:pain_killer#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/pain_killer
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:sleeping_bag#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_building:item/sleeping_bag
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:code_lock#:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/code_lock
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_mobs:raw_deer_mob#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_mobs:item/raw_deer_mob
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_raids:rocket_incendiary#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_raids:item/rocket_incendiary
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:tool_cupboard#:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/tool_cupboard
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:research_table#:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/research_table
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_mobs:wolf_skull#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_mobs:item/wolf_skull
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:metal_chestplate_rust#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/metal_chestplate_rust
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:chocolate_bar#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/chocolate_bar
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_loot:door_green#open=false:
+    minecraft:textures/atlas/blocks.png:rustex_loot:block/door_green
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_raids:rocket_launcher#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_raids:item/rocket_launcher
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_loot:door_red#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_loot:block/door_red
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:raw_wolf_food#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/raw_wolf_food
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_survival:anti_rad_pills#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_survival:item/anti_rad_pills
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_mobs:raw_pork_mob#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_mobs:item/raw_pork_mob
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_crafting:recycler#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_crafting:block/recycler
+[08:14:16] [Worker-Main-2/WARN]: Missing textures in model rustex_building:code_lock#inventory:
+    minecraft:textures/atlas/blocks.png:rustex_building:block/code_lock
+[08:14:16] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[08:14:16] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[08:14:17] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on �������� (Realtek(R) Audio)
+[08:14:17] [Render thread/INFO]: Sound engine started
+[08:14:17] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[08:14:17] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[08:14:17] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[08:14:17] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[08:14:17] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[08:14:17] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[08:14:17] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[08:14:17] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[08:14:17] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[08:14:18] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[08:14:18] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[08:14:18] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[08:14:18] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[08:14:25] [Render thread/INFO]: Deleting level ����� ���
+[08:14:25] [Render thread/INFO]: Attempt 1...
+[08:14:27] [Render thread/INFO]: Loaded 7 recipes
+[08:14:27] [Render thread/INFO]: Loaded 1271 advancements
+[08:14:34] [Render thread/INFO]: Loaded 7 recipes
+[08:14:34] [Render thread/INFO]: Loaded 1271 advancements
+[08:14:39] [Render thread/INFO]: Applied 15 biome modifications to 10 of 64 new biomes in 12.12 ms
+[08:14:39] [Server thread/INFO]: Starting integrated minecraft server version 1.20.1
+[08:14:39] [Server thread/INFO]: Generating keypair
+[08:14:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:14:49] [Render thread/INFO]: ���������� ������� �����������: 0%
+[08:14:49] [Render thread/INFO]: ���������� ������� �����������: 0%
+[08:14:49] [Render thread/INFO]: ���������� ������� �����������: 0%
+[08:14:49] [Render thread/INFO]: ���������� ������� �����������: 0%
+[08:14:49] [Render thread/INFO]: ���������� ������� �����������: 0%
+[08:14:50] [Render thread/INFO]: ���������� ������� �����������: 0%
+[08:14:50] [Render thread/INFO]: ���������� ������� �����������: 0%
+[08:14:50] [Render thread/INFO]: ���������� ������� �����������: 0%
+[08:14:51] [Render thread/INFO]: ���������� ������� �����������: 0%
+[08:14:51] [Render thread/INFO]: ���������� ������� �����������: 1%
+[08:14:52] [Render thread/INFO]: ���������� ������� �����������: 1%
+[08:14:53] [Render thread/INFO]: ���������� ������� �����������: 1%
+[08:14:53] [Render thread/INFO]: ���������� ������� �����������: 2%
+[08:14:53] [Render thread/INFO]: ���������� ������� �����������: 2%
+[08:14:54] [Render thread/INFO]: ���������� ������� �����������: 2%
+[08:14:54] [Render thread/INFO]: ���������� ������� �����������: 3%
+[08:14:55] [Render thread/INFO]: ���������� ������� �����������: 3%
+[08:14:55] [Render thread/INFO]: ���������� ������� �����������: 4%
+[08:14:56] [Render thread/INFO]: ���������� ������� �����������: 4%
+[08:14:56] [Render thread/INFO]: ���������� ������� �����������: 5%
+[08:14:57] [Render thread/INFO]: ���������� ������� �����������: 5%
+[08:14:57] [Render thread/INFO]: ���������� ������� �����������: 7%
+[08:14:58] [Render thread/INFO]: ���������� ������� �����������: 8%
+[08:14:58] [Render thread/INFO]: ���������� ������� �����������: 9%
+[08:14:59] [Render thread/INFO]: ���������� ������� �����������: 10%
+[08:14:59] [Render thread/INFO]: ���������� ������� �����������: 11%
+[08:15:00] [Render thread/INFO]: ���������� ������� �����������: 13%
+[08:15:00] [Render thread/INFO]: ���������� ������� �����������: 15%
+[08:15:01] [Render thread/INFO]: ���������� ������� �����������: 16%
+[08:15:01] [Render thread/INFO]: ���������� ������� �����������: 17%
+[08:15:02] [Render thread/INFO]: ���������� ������� �����������: 19%
+[08:15:02] [Render thread/INFO]: ���������� ������� �����������: 20%
+[08:15:03] [Render thread/INFO]: ���������� ������� �����������: 21%
+[08:15:03] [Render thread/INFO]: ���������� ������� �����������: 23%
+[08:15:04] [Render thread/INFO]: ���������� ������� �����������: 24%
+[08:15:04] [Render thread/INFO]: ���������� ������� �����������: 25%
+[08:15:05] [Render thread/INFO]: ���������� ������� �����������: 27%
+[08:15:05] [Render thread/INFO]: ���������� ������� �����������: 28%
+[08:15:06] [Render thread/INFO]: ���������� ������� �����������: 31%
+[08:15:06] [Render thread/INFO]: ���������� ������� �����������: 31%
+[08:15:07] [Render thread/INFO]: ���������� ������� �����������: 33%
+[08:15:09] [Render thread/INFO]: ���������� ������� �����������: 33%
+[08:15:09] [Render thread/INFO]: ���������� ������� �����������: 33%
+[08:15:09] [Render thread/INFO]: ���������� ������� �����������: 33%
+[08:15:09] [Render thread/INFO]: ���������� ������� �����������: 33%
+[08:15:09] [Render thread/INFO]: ���������� ������� �����������: 35%
+[08:15:10] [Render thread/INFO]: ���������� ������� �����������: 37%
+[08:15:10] [Render thread/INFO]: ���������� ������� �����������: 39%
+[08:15:11] [Render thread/INFO]: ���������� ������� �����������: 42%
+[08:15:11] [Render thread/INFO]: ���������� ������� �����������: 43%
+[08:15:12] [Render thread/INFO]: ���������� ������� �����������: 45%
+[08:15:12] [Render thread/INFO]: ���������� ������� �����������: 47%
+[08:15:13] [Render thread/INFO]: ���������� ������� �����������: 49%
+[08:15:13] [Render thread/INFO]: ���������� ������� �����������: 51%
+[08:15:14] [Render thread/INFO]: ���������� ������� �����������: 53%
+[08:15:14] [Render thread/INFO]: ���������� ������� �����������: 55%
+[08:15:15] [Render thread/INFO]: ���������� ������� �����������: 56%
+[08:15:15] [Render thread/INFO]: ���������� ������� �����������: 58%
+[08:15:16] [Render thread/INFO]: ���������� ������� �����������: 61%
+[08:15:16] [Render thread/INFO]: ���������� ������� �����������: 62%
+[08:15:17] [Render thread/INFO]: ���������� ������� �����������: 64%
+[08:15:18] [Render thread/INFO]: ���������� ������� �����������: 67%
+[08:15:18] [Render thread/INFO]: ���������� ������� �����������: 68%
+[08:15:18] [Render thread/INFO]: ���������� ������� �����������: 69%
+[08:15:19] [Render thread/INFO]: ���������� ������� �����������: 72%
+[08:15:19] [Render thread/INFO]: ���������� ������� �����������: 74%
+[08:15:20] [Render thread/INFO]: ���������� ������� �����������: 76%
+[08:15:20] [Render thread/INFO]: ���������� ������� �����������: 78%
+[08:15:21] [Render thread/INFO]: ���������� ������� �����������: 80%
+[08:15:21] [Render thread/INFO]: ���������� ������� �����������: 83%
+[08:15:22] [Render thread/INFO]: ���������� ������� �����������: 84%
+[08:15:22] [Render thread/INFO]: ���������� ������� �����������: 86%
+[08:15:23] [Render thread/INFO]: ���������� ������� �����������: 88%
+[08:15:23] [Render thread/INFO]: ���������� ������� �����������: 90%
+[08:15:24] [Render thread/INFO]: ���������� ������� �����������: 91%
+[08:15:24] [Render thread/INFO]: ���������� ������� �����������: 94%
+[08:15:25] [Render thread/INFO]: ���������� ������� �����������: 96%
+[08:15:25] [Render thread/INFO]: ���������� ������� �����������: 99%
+[08:15:26] [Render thread/INFO]: Time elapsed: 38658 ms
+[08:15:26] [Server thread/INFO]: Changing view distance to 12, from 10
+[08:15:26] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[08:15:27] [Server thread/INFO]: Blockdawn[local:E:c2ada063] logged in with entity id 202 at (9.5, 118.0, 1.5)
+[08:15:27] [Server thread/INFO]: [AutoLoader] ����� ���������� ���� ������: Blockdawn
+[08:15:28] [Server thread/INFO]: Blockdawn ������������� � ����
+[08:15:28] [Render thread/INFO]: [AutoLoader] ��������� � �������, ������� ����...
+[08:15:28] [Render thread/INFO]: [AutoLoader] ���������� ���� ������� �� �������
+[08:15:28] [Server thread/INFO]: [AutoLoader] ���� ����������: Blockdawn
+[08:15:28] [Server thread/WARN]: [AutoLoader] rustex_manifest.json �� ������!
+[08:15:30] [Render thread/INFO]: Loaded 2 advancements
+[08:15:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2047ms or 40 ticks behind
+[08:15:42] [Server thread/INFO]: Saving and pausing game...
+[08:15:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:overworld
+[08:15:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:the_end
+[08:15:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:the_nether
+[08:16:11] [Server thread/INFO]: Saving and pausing game...
+[08:16:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:overworld
+[08:16:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:the_end
+[08:16:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:the_nether
+[08:16:31] [Server thread/INFO]: [Blockdawn: ��� ����� ���� ������� �� ���������� �����]
+[08:16:32] [Render thread/INFO]: [System] [CHAT] ��� ����� ���� ������� �� ���������� �����
+[08:17:36] [Server thread/INFO]: [Not Secure] <Blockdawn> ������ �� ����� ������ �� ������
+[08:17:36] [Render thread/INFO]: [CHAT] <Blockdawn> ������ �� ����� ������ �� ������
+[08:17:38] [Server thread/INFO]: Saving and pausing game...
+[08:17:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:overworld
+[08:17:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:the_end
+[08:17:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:the_nether
+[08:17:58] [Render thread/ERROR]: Unreported exception thrown!
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_897.method_3933(net.minecraft.class_1297, net.minecraft.class_4604, double, double, double)" because "$$5" is null
+	at net.minecraft.class_898.method_3950(class_898.java:131) ~[client-intermediary.jar:?]
+	at net.minecraft.class_761.method_22710(class_761.java:1288) ~[client-intermediary.jar:?]
+	at net.minecraft.class_757.method_3188(class_757.java:1110) ~[client-intermediary.jar:?]
+	at net.minecraft.class_757.method_3192(class_757.java:880) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1219) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:802) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:250) ~[fabric-loader-0.15.11-1.20.1.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.11.jar:?]
+[08:17:59] [Server thread/INFO]: Stopping server
+[08:17:59] [Server thread/INFO]: Saving players
+[08:17:59] [Server thread/INFO]: [AutoLoader] ������ ������������: Blockdawn
+[08:17:59] [Netty Local Client IO #0/INFO]: [AutoLoader] �������� �� �������, ���� �����������.
+[08:17:59] [Server thread/INFO]: Blockdawn lost connection: ����������
+[08:17:59] [Server thread/INFO]: Blockdawn ������� ����
+[08:17:59] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[08:17:59] [Server thread/INFO]: Saving worlds
+[08:18:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:overworld
+[08:18:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:the_end
+[08:18:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[����� ���]'/minecraft:the_nether
+[08:18:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (����� ���): All chunks are saved
+[08:18:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:18:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:18:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+
+
+===== crash report: crash-2026-11-09_08.18.03-client.txt =====
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 2026-11-09 08:18:03
+Description: Unexpected error
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_897.method_3933(net.minecraft.class_1297, net.minecraft.class_4604, double, double, double)" because "$$5" is null
+	at net.minecraft.class_898.method_3950(class_898.java:131)
+	at net.minecraft.class_761.method_22710(class_761.java:1288)
+	at net.minecraft.class_757.method_3188(class_757.java:1110)
+	at net.minecraft.class_757.method_3192(class_757.java:880)
+	at net.minecraft.class_310.method_1523(class_310.java:1219)
+	at net.minecraft.class_310.method_1514(class_310.java:802)
+	at net.minecraft.client.main.Main.main(Main.java:250)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.minecraft.class_898.method_3950(class_898.java:131)
+	at net.minecraft.class_761.method_22710(class_761.java:1288)
+	at net.minecraft.class_757.method_3188(class_757.java:1110)
+
+-- Affected level --
+Details:
+	All players: 1 total; [class_746['Blockdawn'/202, l='ClientLevel', x=39.02, y=155.78, z=26.92]]
+	Chunk stats: 961, 598
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,127,0), Section: (at 0,15,0 in 0,7,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 2327 game time, 2327 day time
+	Server brand: fabric
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.class_638.method_8538(class_638.java:458)
+	at net.minecraft.class_310.method_1587(class_310.java:2406)
+	at net.minecraft.class_310.method_1514(class_310.java:826)
+	at net.minecraft.client.main.Main.main(Main.java:250)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: vanilla, fabric
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.15, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 831674880 bytes (793 MiB) / 2027945984 bytes (1934 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Pentium(R) Gold 7505 @ 2.00GHz
+	Identifier: Intel64 Family 6 Model 140 Stepping 1
+	Microarchitecture: Tiger Lake
+	Frequency (GHz): 2.00
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: Intel(R) UHD Graphics
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 1024.00
+	Graphics card #0 deviceId: 0x9a78
+	Graphics card #0 versionInfo: DriverVersion=31.0.101.4255
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Virtual memory max (MB): 16590.55
+	Virtual memory used (MB): 8724.78
+	Swap memory total (MB): 8704.00
+	Swap memory used (MB): 61.33
+	JVM Flags: 3 total; -Xmx4096M -Xms512M -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Fabric Mods: 
+		fabric-api: Fabric API 0.92.2+1.20.1
+			fabric-api-base: Fabric API Base 0.4.31+1802ada577
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.36+1802ada577
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.13+1802ada577
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.11+1802ada577
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.1+1802ada577
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.41+1802ada577
+			fabric-client-tags-api-v1: Fabric Client Tags 1.1.2+1802ada577
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.34+f71b366f77
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.13+1802ada577
+			fabric-commands-v0: Fabric Commands (v0) 0.2.51+df3654b377
+			fabric-containers-v0: Fabric Containers (v0) 0.1.64+df3654b377
+			fabric-content-registries-v0: Fabric Content Registries (v0) 4.0.11+1802ada577
+			fabric-convention-tags-v1: Fabric Convention Tags 1.5.5+1802ada577
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.19+1802ada577
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.0.0+de0fd6d177
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 12.3.4+1802ada577
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.54+1802ada577
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.6.0+1c78457f77
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.6.2+1802ada577
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.63+df3654b377
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.40+1802ada577
+			fabric-item-api-v1: Fabric Item API (v1) 2.1.28+1802ada577
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.0.12+1802ada577
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.37+1802ada577
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.35+df3654b377
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.22+1802ada577
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.2.1+1802ada577
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.45+9e7660c677
+			fabric-message-api-v1: Fabric Message API (v1) 5.1.9+1802ada577
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.50+1802ada577
+			fabric-model-loading-api-v1: Fabric Model Loading API (v1) 1.0.3+1802ada577
+			fabric-models-v0: Fabric Models (v0) 0.4.2+9386d8a777
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.3.11+1802ada577
+			fabric-networking-v0: Fabric Networking (v0) 0.3.51+df3654b377
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 11.1.3+1802ada577
+			fabric-particles-v1: Fabric Particles (v1) 1.1.2+1802ada577
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.21+1802ada577
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 2.3.3+1802ada577
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 3.2.1+1802ada577
+			fabric-renderer-indigo: Fabric Renderer - Indigo 1.5.2+85287f9f77
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.46+df3654b377
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.37+92a0d36777
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.28+1802ada577
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.49+df3654b377
+			fabric-rendering-v1: Fabric Rendering (v1) 3.0.8+1802ada577
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.3.8+1802ada577
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.11.10+1802ada577
+			fabric-screen-api-v1: Fabric Screen API (v1) 2.0.8+1802ada577
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.30+1802ada577
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.13+1802ada577
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 3.3.5+8dd72ea377
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 4.3.1+1802ada577
+		fabricloader: Fabric Loader 0.15.11
+			mixinextras: MixinExtras 0.3.5
+		java: OpenJDK 64-Bit Server VM 17
+		minecraft: Minecraft 1.20.1
+		rustex_autoloader: RustEx AutoLoader 1.0.0
+		rustex_building: RustEx Building 1.1.0
+		rustex_crafting: RustEx Crafting 1.0.0
+		rustex_loot: RustEx Loot 1.0.0
+		rustex_mobs: RustEx Mobs 1.1.0
+		rustex_raids: RustEx Raids 1.0.0
+		rustex_survival: RustEx Survival 1.1.0
+		rustex_transport: RustEx Transport 1.0.0
+		rustex_world: RustEx World 1.0.0
+	Launched Version: fabric-loader-0.15.11-1.20.1
+	Backend library: LWJGL version 3.3.1 SNAPSHOT
+	Backend API: Intel(R) UHD Graphics GL version 3.2.0 - Build 31.0.101.4255, Intel
+	Window size: 854x480
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fabric'; Server brand changed to 'fabric'
+	Type: Integrated Server (map_client.txt)
+	Graphics mode: fast
+	Resource Packs: fabric
+	Current Language: ru_ru
+	CPU: 4x Intel(R) Pentium(R) Gold 7505 @ 2.00GHz
+	Server Running: true
+	Player Count: 1 / 8; [class_3222['Blockdawn'/202, l='ServerLevel[Новый мир]', x=39.02, y=155.78, z=26.92]]
+	Data Packs: vanilla, fabric
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
